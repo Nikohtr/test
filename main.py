@@ -10,8 +10,8 @@ client = commands.Bot(command_prefix='+')
 async def on_ready():
     print("I'm in")
     print(client.user)
-    client.loop.create_task(change_playing())
-    client.loop.create_task(sub())
+
+
     
 
 token = os.getenv("DISCORD_BOT_SECRET")
